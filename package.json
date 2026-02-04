@@ -1,0 +1,22 @@
+{
+  "name": "atsugiclip",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node build.js",
+    "serve": "npx serve .",
+    "dev": "npm run build && npm run serve"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KouyaArashiro/atsugiClip.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KouyaArashiro/atsugiClip/issues"
+  },
+  "homepage": "https://github.com/KouyaArashiro/atsugiClip#readme",
+  "description": ""
+}
