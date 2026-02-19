@@ -33,11 +33,19 @@ cd atsugiCrop
 # .env ファイルの作成
 echo "GOOGLE_MAPS_API_KEY=YOUR_API_KEY_HERE" > .env
 
+#必要なpythonモジュールをインストールする
+pip install -r requirements.txt
+
+#error: externally-managed-environmentが出る場合は以下を実行
+pip install -r requirements.txt --break-system-packages
+
 #データの前処理: city.py を実行し、CityGMLから必要な情報を抽出・変換して準備します。
-python3 city.py
+必要性：厚木市からダウンロードしたデータファイルはひとまとまりになっているので、町ごとに分割する必要があります。
+将来、分割されたものが配布される場合、このプロセスは不要です。
+python3 city_to_town.py
 
 #サーバーの起動:
-npm start
+npm run serve
 ```
 ブラウザでの確認: http://localhost:3000 にアクセスし、3Dデータの可視化を確認します。
 
