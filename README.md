@@ -64,3 +64,11 @@ https://www.mega.t-kougei.ac.jp/media/
 - E-mail: moriyama@t-kougei.ac.jp
 - Facebook：https://www.facebook.com/tsuyoshi.moriyama
 - Instagram: https://www.instagram.com/tsuyoshi.moriyama
+
+##
+@misc{atsugiCrop2026,
+  title     = {atsugiCrop},
+  author    = {Koya Arashiro and Yuki Hitomi,Tsuyoshi Moriyama},
+  year      = {2026},
+  url       = {https://huggingface.co/datasets/kanglabs/ub-MOJI}
+}
