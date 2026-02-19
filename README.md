@@ -70,5 +70,5 @@ https://www.mega.t-kougei.ac.jp/media/
   title     = {atsugiCrop},
   author    = {Koya Arashiro and Yuki Hitomi,Tsuyoshi Moriyama},
   year      = {2026},
-  url       = {https://huggingface.co/datasets/kanglabs/ub-MOJI}
+  url       = {https://github.com/tpu-medialab/atsugiCrop/}
 }
